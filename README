@@ -7,9 +7,11 @@ TweetFlickr is a simple node.js application that does the following:
 To run the application:
 
 1. Get the repository
-2. Edit Constants.js so that it contains the Twitter, Flickr and bit.ly token, IDs and other info required.
-3. Run the following command:
+2. Rename the Constants_.js file to Constants.js
+3. Edit Constants.js so that it contains your specific Twitter, Flickr and bit.ly tokens, IDs and other required info.
+4. Optionally change the Flickr tags you want to search for in Constants.js. The default is 'Vancouver'. 
+5. Run the following command:
 
-> node TweetFlickr.js
+    > node TweetFlickr.js
 
 Email geordie(at)waterbay.com with questions and comments.  
