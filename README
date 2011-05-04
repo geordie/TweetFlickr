@@ -1,0 +1,15 @@
+TweetFlickr is a simple node.js application that does the following:
+
+1. Use the Flickr API to poll Flickr for photos with a specific tag
+2. When photos are found, use the bit.ly API to shorten the URL
+3. Use the Twitter API to Tweet the photos
+
+To run the application:
+
+1. Get the repository
+2. Edit Constants.js so that it contains the Twitter, Flickr and bit.ly token, IDs and other info required.
+3. Run the following command:
+
+> node TweetFlickr.js
+
+Email geordie(at)waterbay.com with questions and comments.  
